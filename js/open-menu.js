@@ -1,0 +1,1 @@
+const toggle=document.querySelector(".js-toggle-button"),siteNav=document.querySelector(".nav__site-list"),onToggleClick=()=>{siteNav.classList.toggle("nav__site-list--open")},openMenu=()=>{toggle.addEventListener("click",onToggleClick)};export{openMenu};
